@@ -1,0 +1,14 @@
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo {
+    max-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li {
+    color: #000;
+}

@@ -1,14 +1,62 @@
-.header-list {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+  }
+
+header{
+    height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    margin: 10px 0 5px;
 }
-.logo {
-    max-width: 80px;
+
+nav{
+    width: 60%;
+}
+
+ul{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
-li {
+
+#logo{
+    width: 230px;
+    height: auto;
+    margin-left: 20px;
+}
+
+a {
     color: #000;
+    transition: scale 0.5s ease;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
+a:hover {
+    scale: 1.02;
+}
+
+.social-media {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#social_media_top {
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+#social_media_top:hover {
+    color: gold;
+}
+

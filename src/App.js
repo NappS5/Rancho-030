@@ -1,15 +1,21 @@
 import React from 'react'
 import './App.css';
+import Card from './components/card/card';
+import Carousel from './components/carousel/carousel';
 import Header from './components/header/header';
-import Logo from './components/logo/logo';
+
 
 function App() {
   return (
     <>
+    <body>
     <div>
-      {/* <Logo /> */}
       <Header />
+      <Carousel />
+      <Card />
     </div>
+    <script src="https://kit.fontawesome.com/e90ddac5fc.js" crossorigin="anonymous"></script>
+    </body>
     </>
     
 );

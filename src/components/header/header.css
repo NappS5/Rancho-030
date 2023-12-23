@@ -5,7 +5,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
   }
 
@@ -17,7 +16,7 @@ header{
 }
 
 nav{
-    width: 60%;
+    width: 100%;
 }
 
 ul{
@@ -44,19 +43,5 @@ a:hover {
     scale: 1.02;
 }
 
-.social-media {
-    width: 60px;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-}
 
-#social_media_top {
-    font-size: 20px;
-    transition: all 0.2s;
-}
-
-#social_media_top:hover {
-    color: gold;
-}
 

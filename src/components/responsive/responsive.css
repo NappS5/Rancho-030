@@ -1,0 +1,41 @@
+@media (max-width: 1280px) {
+    header {
+        height: 60px;
+    }
+    nav {
+        width: 70%;
+    }
+    #logo {
+        width: 150px;
+    }
+    a {
+        font-size: 13px;
+    }
+    .icons {
+        height: 20px;
+        width: 20%;
+    }
+    .icon {
+        width: 23px;
+        height: 23px;
+        font-size: 16px;
+    }
+    .roda-container {
+        height: 400px;
+    }
+    .roda-container img {
+        height: 400px;
+    }
+}
+
+@media (max-width:360px) {
+    header {
+        height: 40px;
+    }
+    nav {
+        width: 30%;
+    }
+    #logo {
+        width: 70px;
+    }
+}

@@ -1,10 +1,12 @@
 import React from 'react'
 import './App.css';
+import './components/responsive/responsive.css'
 import Card from './components/card/card';
 import Carousel from './components/carousel/carousel';
 import Header from './components/header/header';
 import Midlane from './components/midlane/midlane';
 import Topo from './components/topo/topo';
+
 
 
 function App() {

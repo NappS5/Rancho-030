@@ -5,9 +5,7 @@
     text-decoration: none;
     list-style: none;
 }
-body {
-    background-color: #fff;
-}
+
 
 .porco-container {
     display: flex;

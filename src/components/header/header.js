@@ -1,5 +1,7 @@
 import React from 'react'
 import './header.css'
+import SocialMedia from '../socialmedia/socialmedia'
+
 
 function Header() {
     return (
@@ -18,18 +20,8 @@ function Header() {
                 </a>
             </ul>
         </nav>
+            <SocialMedia />
 
-        <div class="social-media">
-
-            <a href="https://www.instagram.com/finoconfeito.gramado/" rel='noreferrer' target="_blank">
-                <i class="fa-brands fa-instagram" id="social_media_top"></i> 
-            </a>
-
-            <a href="https://contate.me/finoconfeitogramado" rel='noreferrer' target="_blank">
-                <i class="fa-brands fa-whatsapp" id="social_media_top"></i>
-            </a>
-
-        </div>
        
      </header>
         </>

@@ -41,6 +41,7 @@ a {
 }
 a:hover {
     scale: 1.02;
+    opacity: 90%;
 }
 
 

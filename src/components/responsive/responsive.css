@@ -21,21 +21,29 @@
         font-size: 16px;
     }
     .roda-container {
-        height: 400px;
+        height: 300px;
+        column-gap: 10px;
+        align-items: start;
+        justify-content: flex-start;
     }
     .roda-container img {
-        height: 400px;
+        height: 270px;
+        margin-right: 20px;
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:480px) {
     header {
-        height: 40px;
+        height: 100px;
     }
     nav {
+        width: 480px;
+    }
+    ul {
         width: 30%;
     }
     #logo {
-        width: 70px;
+        width: 10px;
+        height: 10px;
     }
 }

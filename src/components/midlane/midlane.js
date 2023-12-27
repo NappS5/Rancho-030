@@ -6,7 +6,7 @@ function Midlane() {
     <>
       <div className='roda-container'>
         <img className='roda' alt='roda de carreta' src='./imgs/roda-carreta-2.png'></img>
-        <div>
+        <div className='description-container'>
           <h3 className='description'>
             Existem lugares onde você encontra paz.
           </h3>
@@ -18,7 +18,7 @@ function Midlane() {
           </h3>
         </div>
         <div className='sinopse-container'>
-          <h1 className='title'>
+          <h1 className='title create'>
             Criamos memórias
           </h1>
           <h1 className='title'>

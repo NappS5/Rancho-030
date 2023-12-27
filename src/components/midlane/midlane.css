@@ -3,7 +3,8 @@
   align-items: center;
   background-color: rgb(255, 255, 255);
   height: 330px;
-  column-gap: 180px;
+  width: 100%;
+  column-gap: 150px;
   }
   
   img {
@@ -14,8 +15,15 @@
 .sinopse-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }  
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .title {
   font-family: 'Montserrat', sans-serif;
@@ -28,6 +36,7 @@
   font-family: 'Montserrat', 'Montserrat Fallback';
   text-align: right;
   margin-bottom: 8px;
+  align-items: center;
 }
 
   

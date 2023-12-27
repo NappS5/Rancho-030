@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import '../responsive/responsive.css'
 import SocialMedia from '../socialmedia/socialmedia'
 
 

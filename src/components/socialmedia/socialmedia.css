@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-.icons {
+.social-media {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 25px;
     height: 30px;
     width: 30%;
-    margin-left: 270px;
 }
 
 .icon {
@@ -25,7 +24,6 @@
 }
 
 .icon:hover {
-    animation: shake .25s;
     scale: 1.05;
     opacity: 90%;
 

@@ -8,15 +8,23 @@
     box-sizing: border-box;
   }
 
-header{
-    height: 80px;
+  header{
+    height: 70px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin: 10px 0 5px;
+    color: #000;
+    border-radius: 4px;
 }
 
 nav{
-    width: 100%;
+    width: 60%;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
 }
 
 ul{
@@ -27,9 +35,15 @@ ul{
 }
 
 #logo{
-    width: 230px;
-    height: auto;
+    max-width: 230px;
+    max-height: 100px;
     margin-left: 20px;
+}
+.init {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 250px;
 }
 
 a {

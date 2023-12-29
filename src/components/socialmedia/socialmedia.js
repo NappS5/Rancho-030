@@ -5,7 +5,7 @@ import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 function SocialMedia(){
     return(
-        <div className='icons'>
+        <div className='social-media'>
             <a href='https://www.instagram.com/finoconfeito.gramado/' className='icon icon--instagram' target='blank'>
             <FontAwesomeIcon icon={faInstagram} />
             </a>

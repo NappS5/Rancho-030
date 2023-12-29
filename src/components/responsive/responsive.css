@@ -11,7 +11,7 @@
     a {
         font-size: 13px;
     }
-    .icons {
+    .social-media {
         height: 20px;
         width: 20%;
     }
@@ -33,17 +33,68 @@
 }
 
 @media (max-width:480px) {
-    header {
-        height: 100px;
-    }
     nav {
-        width: 480px;
+        width: 100%;
     }
-    ul {
-        width: 30%;
-    }
+   .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   }
+   .init {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 2px !important;
+   }
+   a{
+    font-size: 10px;
+   }
+   li {
+    font-size: 13px;
+    margin: 0 5px;
+   }
     #logo {
-        width: 10px;
-        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: auto;
+        font-size: 10px;
+        margin-left: 5px !important;
     }
+    .social-media {
+        height: 22px !important;
+        width: 100% !important;
+        column-gap: 8px !important;
+        margin-right: 90px;
+    }
+    .icon {
+        width: 15px !important;
+        height: 15px !important;
+        font-size: 11px !important;
+    }
+    .roda-container {
+        height: 100px !important;
+        width: 400px !important;
+        column-gap: 0 !important;
+        flex-direction: column;
+    }
+    .roda {
+        height: 100px !important;
+    }
+    .description-container {
+        font-size: 10px;
+        width: 100%;
+    }
+    .description {
+        margin-bottom: 2px !important;
+    }
+    .title {
+        margin-bottom: 2px !important;
+        font-size: 10px;
+    }
+
 }

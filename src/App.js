@@ -6,6 +6,7 @@ import Carousel from './components/carousel/carousel';
 import Header from './components/header/header';
 import Midlane from './components/midlane/midlane';
 import Topo from './components/topo/topo';
+import Square from './components/square/square';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Topo />
       {/* <Carousel /> */}
       <Midlane />
+      <Square />
       {/* <Card /> */}
     </div>
     <script src="https://kit.fontawesome.com/e90ddac5fc.js" crossorigin="anonymous"></script>

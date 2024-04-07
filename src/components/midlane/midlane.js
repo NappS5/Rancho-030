@@ -11,7 +11,7 @@ function Midlane() {
             Existem lugares onde você encontra paz.
           </h3>
           <h3 className='description'>
-          Descubra um refúgio onde a serenidade 
+          Descubra um refúgio onde a calmaria 
           </h3>
           <h3 className='description'>
           se torna parte de cada experiência. 

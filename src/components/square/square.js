@@ -11,12 +11,12 @@ function Square () {
                 </div>
                 <div className='square'>
                     <a href='./pagina2.html'>
-                    <img alt='externa dia' src='./imgs/externa-dia.JPG'></img>
+                    <img alt='Localização' src='./imgs/externa-dia.JPG'></img>
                     </a>
                 </div>
                 <div className='square'>
                     <a href='./pagina3.html'>
-                    <img alt='Localização' src='./imgs/sofa-externa.JPG'></img>
+                    <img alt='externaa' src='./imgs/sofa-externa.JPG'></img>
                     </a>
                 </div>
             </div>

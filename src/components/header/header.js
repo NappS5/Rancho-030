@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import '../responsive/responsive.css'
-import SocialMedia from '../socialmedia/socialmedia'
 
 
 function Header() {
@@ -23,7 +22,6 @@ function Header() {
                 </div>
             </ul>
         </nav>
-            <SocialMedia />
      </header>
         </>
     )

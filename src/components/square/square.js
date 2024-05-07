@@ -1,22 +1,27 @@
 import React from 'react';
-import '../square/square.css'
+import '../square/square.css';
+import localizacao from '../../assets/imgs/placa-linha.JPG';
+import espaco from '../../assets/imgs/externa-dia.JPG';
+import cardapio from '../../assets/imgs/cardapio-rancho.png'
+
+
 function Square () {
     return (
         <div className='square-container'>
             <div className='squares'>
             <div className='square'>
                     <a href='./pagina1.html'>
-                        <img alt='placa linha' src='./imgs/placa-linha.JPG'></img>
+                        <img alt='localizacao' src={ localizacao }></img>
                     </a>
                 </div>
                 <div className='square'>
                     <a href='./pagina2.html'>
-                    <img alt='Localização' src='./imgs/externa-dia.JPG'></img>
+                    <img alt='espaco' src={ espaco }></img>
                     </a>
                 </div>
                 <div className='square'>
                     <a href='./pagina3.html'>
-                    <img alt='externaa' src='./imgs/sofa-externa.JPG'></img>
+                    <img alt='cardapio' src={ cardapio }></img>
                     </a>
                 </div>
             </div>

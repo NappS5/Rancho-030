@@ -1,11 +1,12 @@
 import React from 'react'
 import './midlane.css'
+import rodaCarreta from '../../assets/imgs/roda-carreta-2.png'
 
 function Midlane() {
   return (
     <>
       <div className='roda-container'>
-        <img className='roda' alt='roda de carreta' src='./imgs/roda-carreta-2.png'></img>
+        <img className='roda' alt='roda de carreta' src={ rodaCarreta }></img>
         <div className='description-container'>
           <h3 className='description'>
             Existem lugares onde você encontra paz.

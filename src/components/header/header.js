@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.css'
 import '../responsive/responsive.css'
+import logo from '../../assets/imgs/logo-ranchozero30.png'
+import { Link } from 'react-router-dom'
 
 
 function Header() {
@@ -9,16 +11,22 @@ function Header() {
      <header>
         <nav>
             <ul className='header-container'>
-                <a href='./index.html'>
-                    <img id='logo' src="./imgs/logo-ranchozero30.png" alt='logo-rz'></img>
-                </a>
+                <Link to='/'>
+                    <img id='logo' src= { logo } alt='logo-rz'></img>
+                </Link>
+
                 <div className='init'>
-                <a href='./index.html' className='inicio'>
+                <Link to='/'>
                     <li>Início</li>
-                </a>
-                <a href='./index.html' className='sobre'>
+                </Link>
+
+                <Link to='/sobre'>
                     <li>Sobre</li>
-                </a>
+                </Link>
+
+                <Link to='/contato'>
+                    <li>Contato</li>
+                </Link>
                 </div>
             </ul>
         </nav>

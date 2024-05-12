@@ -38,12 +38,11 @@ ul{
     max-width: 230px;
     max-height: 100px;
     margin-left: 20px;
+    margin-right: 40px;
 }
 .init {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 250px;
+    column-gap: 50px;
 }
 
 a {

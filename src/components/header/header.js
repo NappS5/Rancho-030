@@ -18,15 +18,15 @@ function Header() {
 
                 <div className='init'>
                 <Link to='/'>
-                    <li>Início</li>
+                    <li id='Home'>Início</li>
                 </Link>
 
                 <Link to='/sobre'>
-                    <li>Sobre</li>
+                    <li id='about'>Sobre</li>
                 </Link>
 
                 <Link to='/contato'>
-                    <li>Contato</li>
+                    <li id='contact'>Contato</li>
                 </Link>
                 </div>
             </ul>

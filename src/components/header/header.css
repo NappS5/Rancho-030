@@ -53,17 +53,18 @@ ul{
 }
 
 li {
+    text-decoration: none;
     color: #000;
-    transition: scale 0.2s ease;
     font-size: 17px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    transition: scale 0.2s ease;
 }
 li:hover {
     scale: 1.02;
     opacity: 98%;
     color: #3d1e00;
-    border-bottom: 1px solid #3d1e00; /* Underline effect */
+    text-decoration: underline; /* Add underline on hover */
 }
 
 

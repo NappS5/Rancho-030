@@ -1,9 +1,15 @@
 import React from 'react';
+import Header from '../../header/header';
+import Footer from '../../footer/footer';
+import Maps from '../../maps/maps';
+
 
 function Local() {
     return(
         <>
-        Como chegar
+        <Header />
+        <Maps />
+        <Footer />
         </>
     )
 }

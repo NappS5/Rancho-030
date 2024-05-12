@@ -1,6 +1,7 @@
 import React from 'react'
 import './midlane.css'
 import rodaCarreta from '../../assets/imgs/roda-carreta-2.png'
+import patos from '../../assets/imgs/patos.png'
 
 function Midlane() {
   return (
@@ -23,9 +24,10 @@ function Midlane() {
             Criamos memórias
           </h1>
           <h1 className='title'>
-            em meio á natureza.
+            em meio à natureza.
           </h1>
         </div>
+          <img id='patos' src={ patos } alt='patos'></img>
       </div>
     </>
   )

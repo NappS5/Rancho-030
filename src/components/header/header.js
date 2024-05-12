@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import '../responsive/responsive.css'
 import logo from '../../assets/imgs/logo-ranchozero30.png'
+import roda from '../../assets/imgs/roda-carreta-virada.png'
 import { Link } from 'react-router-dom'
 
 
@@ -30,6 +31,7 @@ function Header() {
                 </div>
             </ul>
         </nav>
+                <img id='carreta' src= { roda } alt='roda-carreta'></img>
      </header>
         </>
     )

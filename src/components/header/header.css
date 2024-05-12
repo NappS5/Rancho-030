@@ -14,11 +14,12 @@
     justify-content: space-between;
     align-items: center;
     color: #000;
+    background-color: #f1c46b5e;
     border-radius: 4px;
 }
 
 nav{
-    width: 60%;
+    width: 57%;
 }
 .nav-container {
     display: flex;
@@ -40,21 +41,29 @@ ul{
     margin-left: 20px;
     margin-right: 40px;
 }
+
+#carreta {
+    max-height: 75px;
+    max-width: 100px;
+}
+
 .init {
     display: flex;
     column-gap: 50px;
 }
 
-a {
+li {
     color: #000;
-    transition: scale 0.5s ease;
+    transition: scale 0.2s ease;
     font-size: 17px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
-a:hover {
+li:hover {
     scale: 1.02;
-    opacity: 90%;
+    opacity: 98%;
+    color: #3d1e00;
+    border-bottom: 1px solid #3d1e00; /* Underline effect */
 }
 
 

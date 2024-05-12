@@ -1,11 +1,15 @@
+.banner-container {
+  background-color: #f7bc79d2;
+
+}
+
 .banner {
     padding-left: 0;
     padding-right: 0;
     width: auto;
     float: none;
-    top: 0;
     left: 0;
-    position: relative;
     max-width: 100%;
+    height: auto;
  
 }

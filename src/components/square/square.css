@@ -2,15 +2,16 @@
     background-color: #f1c46b83;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     height: 500px;
 }
 
 .squares {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    column-gap: 50px;
+    justify-content: space-evenly;
 }
 
 .square {
@@ -25,6 +26,13 @@
 .square a {
     display: block;
     height: 100%;
+    transition: scale 0.5s ease;
+}
+
+.square a:hover {
+    scale: 1.02;
+    opacity: 98%;
+
 }
 
 .square img {

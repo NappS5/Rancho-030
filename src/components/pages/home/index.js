@@ -5,6 +5,7 @@ import Header from '../../header/header';
 import Midlane from '../../midlane/midlane';
 import Topo from '../../topo/topo';
 import Square from '../../square/square';
+import Footer from '../../footer/footer';
 
 
 
@@ -15,10 +16,9 @@ function Home() {
     <div>
       <Header />
       <Topo />
-      {/* <Carousel /> */}
       <Midlane />
       <Square />
-      {/* <Card /> */}
+      <Footer />
     </div>
     <script src="https://kit.fontawesome.com/e90ddac5fc.js" crossorigin="anonymous"></script>
     </body>

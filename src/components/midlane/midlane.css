@@ -1,7 +1,7 @@
 .roda-container {
   display: flex;
   align-items: center;
-  background-color: rgb(224, 129, 40);
+  background-color: #f7bc79d2;
   height: 330px;
   width: 100%;
   column-gap: 150px;
@@ -35,6 +35,14 @@
   align-items: center;
   flex-direction: column;
 }  
+
+#patos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 70px;
+  margin-bottom: 50px;
+}
 
 
   

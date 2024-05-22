@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../header/header';
 import './sobre.css';
-import ranchoEfino from '../../../assets/imgs/RANCHO-e-FINO CONFEITO.svg';
+import ranchoEfino from '../../../assets/imgs/RANCHO-FINO CONFEITO.png';
 
 
 function Sobre() {

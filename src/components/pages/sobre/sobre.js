@@ -12,6 +12,9 @@ function Sobre() {
     return(
         <>
             <Header />
+            <div className='video-container'>
+                <video></video>
+            </div>
         <div className='about-container'>
             <div className='about-content'>
                 <img id='rancho-fino' src={ ranchoEfino } alt='rancho-e-fino'></img>
@@ -30,19 +33,6 @@ function Sobre() {
                     <p>•É quem bota os doces para vender</p>
                     <p>•Um espaço que visa proporcionar um ambiente inesquecível para quem o visita.</p>
             </div>
-            </div>
-
-            <div className='feedback-container'>
-                <div className='feedback-content'>
-                    <h1>O que nossos clientes falam sobre nós</h1>
-
-                    <div className='feedbacks'>
-                        <h2>Cláudia Santos</h2> 
-                        <FontAwesomeIcon icon={faStar} />
-                        <p>Amei o lugar, eles prestam ótimo atendimento.</p>
-                    </div>
-                    
-                </div>
             </div>
         </div>
         </>

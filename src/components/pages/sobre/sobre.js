@@ -7,6 +7,7 @@ import rodaCarreta from '../../../assets/imgs/roda-carreta.png'
 import rodaInvertida from '../../../assets/imgs/roda-carreta-virada.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
+import Footer from '../../footer/footer';
 
 
 
@@ -15,31 +16,15 @@ function Sobre() {
     return(
         <>
             <Header />
-            <div className='video-container'>
-                <img alt='roda' id='roda-invertida' src={rodaInvertida}></img>
-                <video controls className='video-promocional' typeof='video/mp4' src={video}></video>
-                <img alt='roda' id='roda-carreta' src={rodaCarreta}></img>
-            </div>
-        <div className='about-container'>
-            <div className='about-content'>
-                <h1>Mas afinal, qual é a diferença entre o Rancho030 e a Fino Confeito?</h1>
-                <p>É o que muitas pessoas perguntam à nós.</p>
-            </div>
-
-            <div className='Fino-e-Rancho'>
-                <div className='about-description'>
-                    <h1>Fino Confeito</h1>
-                    <p>•É quem faz os doces</p>
-                    <p>•Uma marca que visa proporcionar doces e tortas maravilhosas</p>
+            <div className='trailer-container'>
+                <div className='trailer-content'>
+                    <img alt='titulo-rancho' id='titulo-rancho' src={ranchoEfino}></img>
+                    <video controls className='video-promocional' typeof='video/mp4' src={video}></video>
+                    <p id='previa'>Aqui contamos um pouco mais sobre o que é a Fino Confeito e o Rancho030 e como um é tão importante para que o outro exista... Basicamente, eles se complementam de uma forma perfeita, enquanto um carrega a perfeição em cada detalhe, o outro leva a simplicidade consigo, assim como os proprietários Angela e Clóvis.</p>
                 </div>
-                <div className='about-description'>
-                    <h1>Rancho030</h1>
-                    <p>•É quem bota os doces para vender</p>
-                    <p>•Um espaço que visa proporcionar um ambiente inesquecível para quem o visita.</p>
             </div>
-            </div>
-        </div>
-        </>
+            <Footer />
+        </> 
     )
 }
 

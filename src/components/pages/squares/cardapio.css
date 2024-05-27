@@ -1,0 +1,26 @@
+.cardapio-container {
+    display: flex;
+    background-color: rgb(48, 48, 48);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicial{
+    height: 700px;
+}
+
+#pag2{
+    height: 700px;
+}
+#pag3{
+    height: 700px;
+}
+.page {
+    background-color: #C5A37F;
+    width: 100px;
+}
+
+
+
+  

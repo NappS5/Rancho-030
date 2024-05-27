@@ -1,58 +1,33 @@
-.about-container {
-    background-color: #f7bc79d2;
-    height: 100vh;
-}
-.about-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+.trailer-container{
+    background-color: #f7bc79d2;   
+    height: 100vh; 
 }
 
-#rancho-fino {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#previa{
+    width: 40%;
     margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', 'Montserrat Fallback';
 }
 
-.Fino-e-Rancho {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
-.about-description {
-    max-width: 25%;
-}
-
-.feedback-container {
-    margin-top: 30px;
-}
-
-.feedback-content{
+.trailer-content{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.feedbacks {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.video-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f7bc79d2;    
 
+#titulo-rancho{
+    margin-top: 20px;
 }
 .video-promocional{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
-    border: 5px solid rgb(127, 45, 0);
+    width: 50%;
+    border: 5px solid #874b0f;
     margin-top: 20px;
 }
 #roda-carreta{

@@ -14,13 +14,16 @@ function Local() {
         <>
         <Header />
         <div className='localizacao-container'>
-        <img id='slogan' alt='localizacao' src={ slogan }></img>
-            <div className='rancho-local'>
-                <img id='rancho-longo' alt='localizacao' src={ rancho }></img>
-                <img id='local' alt='localizacao' src={ local }></img>
+            <div className='localizacao-content'>
+            <img id='slogan' alt='localizacao' src={ slogan }></img>
+                <div className='rancho-local'>
+                    <Maps />
+                    <img id='rancho-longo' alt='localizacao' src={ rancho }></img>
+                    <img id='local' alt='localizacao' src={ local }></img>
+                </div>
             </div>
         </div>
-        <Maps />
+        
         <Footer />
         </>
     )

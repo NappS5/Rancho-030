@@ -4,10 +4,25 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+#title-cardapio-rancho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px;
+    color: #C5A37F;
+    margin-bottom: 30px;
+}
+.pages {
+    background-color: #C5A37F;
+
 }
 
 #inicial{
     height: 700px;
+    background-color: #C5A37F;
 }
 
 #pag2{
@@ -17,8 +32,15 @@
     height: 700px;
 }
 .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #C5A37F;
     width: 100px;
+    transform: rotateX(0deg);
+}
+.page:hover {
+    transform: rotateX(360deg);
 }
 
 

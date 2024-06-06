@@ -1,5 +1,10 @@
 .localizacao-container{
+  height: 100vh;
   background-color: #f7bc79d2;
+
+}
+
+.localizacao-content{
   height: 400px;
   display: flex;
   align-items: center;
@@ -11,4 +16,8 @@
   left: 0;
   max-width: 100%;
 }
-
+.rancho-local{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -5,7 +5,11 @@ function Contato() {
     return(
         <>
         <Header />
-        Entre em contato
+        <div className='contato-container'>
+            <div className='contato-content'>
+                <h1>Você sabia que o Rancho030 tem um Instagram?</h1>
+            </div>
+        </div>
         </>
     )
 }

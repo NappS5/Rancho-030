@@ -7,6 +7,7 @@ import cardapio from '../../assets/imgs/cardápio/cardapio-rancho.png'
 
 function Square () {
     return (
+        <>
         <div className='square-container'>
             <div className='squares'>
             <div className='square'>
@@ -25,7 +26,9 @@ function Square () {
                     </a>
                 </div>
             </div>
+            <p className='frase-chama'>O melhor local para respirar ar puro na Serra Gaúcha e fugir da rotina.</p>
         </div>
+        </>
     )
 }
 

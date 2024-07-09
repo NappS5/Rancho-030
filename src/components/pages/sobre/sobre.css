@@ -1,7 +1,6 @@
 
 .trailer-container{
-    background-color: #f7bc79d2;   
-    height: 100vh; 
+    background-color: #613301d2;   
 }
 
 #previa{
@@ -22,13 +21,14 @@
 #titulo-rancho{
     margin-top: 20px;
 }
+
 .video-promocional{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    border: 5px solid #874b0f;
-    margin-top: 20px;
+    width: 40%;
+    margin-bottom: 70px;
+    margin-top: 50px;
 }
 #roda-carreta{
     height: 200px;

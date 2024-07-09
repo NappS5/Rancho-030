@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 500px;
 }
 
@@ -21,6 +22,7 @@
     width: 365px;
     overflow: hidden;
     background-color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .square a {
@@ -40,4 +42,12 @@
     height: 100%;
     object-fit: cover;
     object-position: center center;
+}
+
+.frase-chama {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #4e2801;
+    font-family: 'Montserrat', sans-serif;
 }

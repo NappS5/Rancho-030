@@ -23,7 +23,6 @@ function Local() {
                 </div>
             </div>
         </div>
-        
         <Footer />
         </>
     )

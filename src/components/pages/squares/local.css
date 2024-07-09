@@ -1,7 +1,9 @@
 .localizacao-container{
   height: 100vh;
   background-color: #f7bc79d2;
-
+}
+#slogan {
+  max-width: 290px;
 }
 
 .localizacao-content{
@@ -14,7 +16,6 @@
   width: auto;
   float: none;
   left: 0;
-  max-width: 100%;
 }
 .rancho-local{
   display: flex;

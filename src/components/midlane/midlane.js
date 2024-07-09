@@ -2,6 +2,7 @@ import React from 'react'
 import './midlane.css'
 import rodaCarreta from '../../assets/imgs/roda-carreta-2.png'
 import patos from '../../assets/imgs/patos.png'
+import Sobre from '../pages/sobre/sobre'
 
 function Midlane() {
   return (
@@ -29,6 +30,7 @@ function Midlane() {
         </div>
           <img id='patos' src={ patos } alt='patos'></img>
       </div>
+      <Sobre />
     </>
   )
 
